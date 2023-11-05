@@ -2,7 +2,7 @@ TITLE BIN2HEX
  
 DATA SEGMENT  
     
-    bin_num db 'Give an 8bit binary number:',' $'
+    bin_num db 'Give an 8bit binary number: $'
     hex_num db 10,13,'The hex number is: $'
     
 DATA ENDS 
